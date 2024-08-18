@@ -9,17 +9,14 @@ public class XSLTTester {
 
     public static void main(String[] args) {
         try {
-            // Apply the first XSLT transformation
             transformXML("src/main/resources/data.xml",
                     "src/main/resources/addRequestedAmount.xsl",
                     "src/main/resources/result/RequestedAmount.xml");
 
-            // Apply the second XSLT transformation
             transformXML("src/main/resources/data.xml",
                     "src/main/resources/addGuarantorDetails.xsl",
                     "src/main/resources/result/GuarantorDetails.xml");
 
-            // Apply the third XSLT transformation
             transformXML("src/main/resources/data.xml",
                     "src/main/resources/addINNToLoaners.xsl",
                     "src/main/resources/result/INNToLoaners.xml");

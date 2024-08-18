@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><Data>
+        
+    <ApplicationData>
+                
+        <ApplicantLoaners>
+                        
+            <ApplicantDetails>
+                                
+                <Loaners>
+                                        
+                    <Loaner>
+                                                
+                        <Name>Alexey</Name>
+                                                
+                        <Age>27</Age>
+                                                
+                        <INN>1234567890</INN>
+                                            
+                        <GuarantorDetails>
+                            <Name>Sample Name</Name>
+                            <INN>1234567890</INN>
+                        </GuarantorDetails>
+                    </Loaner>
+                                    
+                </Loaners>
+                            
+            </ApplicantDetails>
+                    
+        </ApplicantLoaners>
+                
+        <RequestedAmount>20000</RequestedAmount>
+                
+        <RequestedTerm>24</RequestedTerm>
+            
+    </ApplicationData>
+        
+    <SystemData>
+                
+        <LoanProducts>
+                        
+            <LoanProduct>
+                                
+                <MinAmount>1000</MinAmount>
+                                
+                <MaxAmount>50000</MaxAmount>
+                                
+                <MinTerm>12</MinTerm>
+                                
+                <MaxTerm>60</MaxTerm>
+                            
+            </LoanProduct>
+                    
+        </LoanProducts>
+                
+        <Product>
+                        
+            <Params>
+                                
+                <InterestRate>5.5</InterestRate>
+                                
+                <LoanTerm>36</LoanTerm>
+                                
+                <ProcessingFee>100</ProcessingFee>
+                                
+                <InsuranceRequired>true</InsuranceRequired>
+                                
+                <MaxLoanAmount>50000</MaxLoanAmount>
+                                
+                <MinLoanAmount>1000</MinLoanAmount>
+                            
+            </Params>
+                    
+        </Product>
+            
+    </SystemData>
+    
+</Data>
