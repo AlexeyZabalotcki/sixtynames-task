@@ -12,17 +12,17 @@ public class XSLTTester {
             // Apply the first XSLT transformation
             transformXML("src/main/resources/data.xml",
                     "src/main/resources/addRequestedAmount.xsl",
-                    "src/main/resources/result/output1.xml");
+                    "src/main/resources/result/RequestedAmount.xml");
 
             // Apply the second XSLT transformation
             transformXML("src/main/resources/data.xml",
                     "src/main/resources/addGuarantorDetails.xsl",
-                    "src/main/resources/result/output2.xml");
+                    "src/main/resources/result/GuarantorDetails.xml");
 
             // Apply the third XSLT transformation
             transformXML("src/main/resources/data.xml",
                     "src/main/resources/addINNToLoaners.xsl",
-                    "src/main/resources/result/output3.xml");
+                    "src/main/resources/result/INNToLoaners.xml");
 
             System.out.println("Transformations completed successfully.");
         } catch (Exception e) {
